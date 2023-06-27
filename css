@@ -1,0 +1,52 @@
+li {
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+
+.text-logo {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.text-logo-accent {
+    color: #000000
+}
+
+/*Navigation*/
+.nav-menu {
+    color: #212121;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.nav-menu :hover,
+.nav-menu :focus {
+    color: #2196F3;
+}
+
+/*Peculiarities*/
+
+.about-title {
+    color: #212121;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.about-title-text {
+    color: #757575;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}

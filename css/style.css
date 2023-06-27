@@ -25,12 +25,15 @@ li {
     font-family: Roboto;
     font-weight: 500;
     letter-spacing: 0.28px;
-    text-decoration: none;
 }
 
 .nav-menu :hover,
 .nav-menu :focus {
     color: #2196F3;
+}
+
+.nav-menu a {
+    text-decoration: none;
 }
 
 /*Peculiarities*/

@@ -1,0 +1,21 @@
+/*Gallery*/
+.gallery {
+    background-color: var(--primary-white-color);
+}
+
+.gallery .title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+
+.gallery .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}

@@ -40,6 +40,8 @@ li {
     text-decoration: none;
 }
 
+/*Header link*/
+
 /*Hero*/
 .hero-title {
     color: #FFF;
@@ -53,7 +55,7 @@ li {
 }
 
 .hero-color {
-    background: #F5F4FA;
+    background: #2F303A;
 }
 
 /*Section*/

@@ -18,6 +18,10 @@ li {
     color: #000000
 }
 
+.text-logo-footer {
+    color: #FFFFFF;
+}
+
 /*Navigation*/
 .nav-menu {
     color: #212121;
@@ -34,6 +38,49 @@ li {
 
 .nav-menu a {
     text-decoration: none;
+}
+
+/*Hero*/
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-family: Roboto;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.hero-color {
+    background: #F5F4FA;
+}
+
+/*Section*/
+.section-title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.name {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+.speciality {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    letter-spacing: 0.48px;
 }
 
 /*Peculiarities*/
@@ -53,4 +100,30 @@ li {
     font-family: Roboto;
     line-height: 24px;
     letter-spacing: 0.42px;
+}
+
+/*Our team*/
+.team-color {
+    background: #F5F4FA;
+}
+
+/*Footer*/
+.adress {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.link-footer {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.footer {
+    background: #2F303A;
 }

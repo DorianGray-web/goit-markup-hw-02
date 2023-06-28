@@ -41,8 +41,12 @@ li {
     letter-spacing: 0.28px;
 }
 
-.nav-menu :hover,
-.nav-menu :focus {
+.nav-menu .link :hover,
+.nav-menu .link :focus {
+    color: var(--primary-link-color);
+}
+
+.nav-menu .link .current {
     color: var(--primary-link-color);
 }
 

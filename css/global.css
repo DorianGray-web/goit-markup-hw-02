@@ -78,8 +78,8 @@ body {
     letter-spacing: 0.42px;
 }
 
-.adress .link-footer:hover,
-.adress .link-footer:focus {
+.link-footer:hover,
+.link-footer:focus {
     color: var(--primary-link-color);
 }
 

@@ -38,6 +38,10 @@ body {
 }
 
 /*Navigation*/
+header {
+    background-color: var(--primary-white-color);
+}
+
 .nav-menu {
     font-size: 14px;
     font-weight: 500;
@@ -61,6 +65,14 @@ body {
 
 .nav-menu a {
     text-decoration: none;
+}
+
+.adress-header {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 /*Footer*/

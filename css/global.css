@@ -6,15 +6,20 @@
     --footer-bcg-color: #2F303A;
     --footer-link-color: rgba(255, 255, 255, 0.60);
     --text-logo-accent: #000000;
+    --button-bcg-color: #F5F4FA;
 }
 
+button,
 li {
     cursor: pointer;
 }
 
+
+
 .list {
     list-style: none;
 }
+
 
 .text-logo {
     color: var(--primary-link-color);
@@ -33,8 +38,32 @@ li {
 }
 
 body {
-    font-family: Roboto;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+/*Button*/
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--primary-link-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--primary-link-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--button-bcg-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--primary-link-color);
 }
 
 /*Navigation*/
@@ -59,7 +88,7 @@ header {
     color: var(--primary-link-color);
 }
 
-.nav-menu .link .current {
+.current {
     color: var(--primary-link-color);
 }
 
@@ -91,7 +120,7 @@ header {
 
 .link-footer:hover,
 .link-footer:focus {
-    color: var(--primary-link-color);
+    color: var(--primary-white-color);
 }
 
 .footer {

@@ -106,6 +106,7 @@ header {
 
 .adress-header .link {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 /*Footer*/
@@ -122,6 +123,7 @@ header {
     line-height: 1.71;
     letter-spacing: 0.42px;
     font-style: normal;
+    text-decoration: none;
 }
 
 .link-footer:hover,
